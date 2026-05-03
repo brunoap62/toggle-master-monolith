@@ -73,7 +73,7 @@ R: Atende parcialmente. A inicialização é ágil e validada via script de entr
 ### X. Dev/prod semelhantes
 
 **Status: ⚠️ Parcial**
-R: Posso dizer que atende parcialmente pois utilizo por exemplo a mesma versão do banco postgresql 13 que está local no RDS. Porem se fosse um arquitetura de container onde eu subisse a imagem para minha EC2 conseguira manter essa integridade totalmente igual desdás configurações do SO até as configurações utilizadas. Exemplo a imagem python:3.9-slim roda em um debian:buster-20210208-slim e em prod estamos em uma amazon Linux 2023. e também não utilizamos nenhum pipeline ainda para fazer a redução da diferença entre 1 ou mais ambientes.
+R: Posso dizer que atende parcialmente pois local por exemplo a versão do postgresql é 13 já no rds está a 17. Porem se fosse um arquitetura de container onde eu subisse a imagem para minha EC2 conseguira manter essa integridade totalmente igual desdás configurações do SO até as configurações utilizadas. Exemplo a imagem python:3.9-slim roda em um debian:buster-20210208-slim e em prod estamos em uma amazon Linux 2023. e também não utilizamos nenhum pipeline ainda para fazer a redução da diferença entre 1 ou mais ambientes.
 
 ### XI. Logs
 
